@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二十周年同学会</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', 'Inter', sans-serif;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            border: 4px solid #4f46e5;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #4f46e5, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold gradient-text">
+                我们毕业20年啦！
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#itinerary" class="text-gray-600 hover:text-indigo-600 transition">详细行程</a>
+                <a href="#activities" class="text-gray-600 hover:text-indigo-600 transition">主题活动</a>
+                <a href="#fees" class="text-gray-600 hover:text-indigo-600 transition">费用说明</a>
+                <a href="#travel" class="text-gray-600 hover:text-indigo-600 transition">交通指南</a>
+                <a href="#rsvp" class="text-gray-600 hover:text-indigo-600 transition">报名回执</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">重聚山城，共忆青春</h1>
+            <p class="text-lg text-gray-600">0172-1班二十周年同学会</p>
+            <p class="text-xl font-semibold text-indigo-600 mt-2">2024年8月15日 - 8月17日</p>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section id="itinerary" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">详细行程安排</h2>
+            <div class="relative border-l-2 border-indigo-200 pl-8 space-y-12">
+                <!-- Day 1: August 15 -->
+                <div class="timeline-item">
+                    <h3 class="text-2xl font-bold text-indigo-700">8月15日 (星期五) · 抵渝 & 家宴</h3>
+                    <p class="text-sm text-gray-500 mb-4">下榻酒店：杨家坪直港大道佳宇英皇酒店</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="mb-4"><strong>下午/傍晚：</strong>各地同学抵达重庆，办理入住。房间为统一预定，先到先选江景或街景房哦！</p>
+                        <p class="mb-4"><strong>晚宴：</strong>以寝室为单位的“家宴”主题聚餐。允许“挖墙脚”、搞联谊、串台搞二场！费用建议由本寝室重庆本地同学承担。</p>
+                        <div>
+                            <h4 class="font-semibold mb-2">推荐餐厅：</h4>
+                            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                                <li>何氏万州烤鱼 (网红民主村)</li>
+                                <li>真不赖烧烤 (万象城)</li>
+                                <li>联防食店 (特色家常菜)</li>
+                                <li>最小酒馆 (江湖菜)</li>
+                                <li>原始部落民俗烧烤 (西昌火盆烤肉)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 2: August 16 -->
+                <div class="timeline-item">
+                    <h3 class="text-2xl font-bold text-indigo-700">8月16日 (星期六) · 归校 & 仪式</h3>
+                    <p class="text-sm text-gray-500 mb-4">重温青春足迹</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md space-y-6">
+                        <p><strong>上午 9:30：</strong>步行前往母校报到，沿途寻访“兄妹酒家”、“中天网城”等旧址，擦亮回忆。报到处设于“大隐茶府”，签到并领取纪念T恤。</p>
+                        <p><strong>上午 10:00 - 12:00：</strong>同学会仪式。组委会致辞，同学依次分享近况与往事，班长做重要发言，最后在新图书馆前重拍毕业照。</p>
+                        <p><strong>午餐：</strong>在学校周边自行分散解决，推荐品尝地道的大盘鸡和小面。</p>
+                        <p><strong>下午 3:00 起：</strong>精彩纷呈的离校活动（四选一，详见下方活动板块）。</p>
+                        <p><strong>晚上 6:30：</strong>所有同学齐聚南山“去南山”火锅馆，共享盛大晚宴。席间将播放怀旧影像。晚宴后有专车送回酒店。</p>
+                    </div>
+                </div>
+
+                <!-- Day 3: August 17 -->
+                <div class="timeline-item">
+                    <h3 class="text-2xl font-bold text-indigo-700">8月17日 (星期日) · 展望 & 惜别</h3>
+                    <p class="text-sm text-gray-500 mb-4">了解第二故乡，然后各自返程</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="mb-4"><strong>上午 9:30：</strong>本地同学驾车接上外地同学，一同前往重庆规划展览馆，了解我们第二故乡的前世今生与未来。游览时间约60分钟。</p>
+                        <p><strong>下午：</strong>午餐自行安排。会务组将根据同学们的返程订票情况，安排送站车辆。至此，同学会圆满结束！</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">8月16日下午 · 主题活动 (四选一)</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- A线 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-emerald-600 mb-2">A线：登临南山</h3>
+                    <p class="text-gray-600">登“重庆之肺”，俯瞰山城全貌。适合体能较好、热爱自然风光的同学。</p>
+                    <p class="mt-4 font-semibold">领队：任超</p>
+                </div>
+                <!-- B线 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-sky-600 mb-2">B线：闲逛动物园</h3>
+                    <p class="text-gray-600">探访西南历史最悠久的动物园，观看网红大熊猫。适合携家带口、悠闲漫步的同学。</p>
+                    <p class="mt-4 font-semibold">领队：李彪</p>
+                </div>
+                <!-- C线 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-amber-600 mb-2">C线：Citywalk</h3>
+                    <p class="text-gray-600">打卡陪都历史遗迹，感受重庆厚重文化底蕴。适合脚力尚好、喜欢历史的同学。</p>
+                    <p class="mt-4 font-semibold">领队：朱坤</p>
+                </div>
+                <!-- D线 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-slate-600 mb-2">D线：自由行</h3>
+                    <p class="text-gray-600">想去哪就去哪！探访新校区、会友或是在老校园多坐坐，留下独家记忆。</p>
+                    <p class="mt-4 font-semibold">领队：无</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fees Section -->
+        <section id="fees" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">费用说明</h2>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-pink-500">
+                    <h3 class="text-2xl font-bold mb-4">外地同学</h3>
+                    <p class="mb-4">住宿费自理（约360元/晚）。</p>
+                    <p class="font-semibold text-lg">需预交费用：<span class="text-pink-600 font-bold text-xl">173元/人</span></p>
+                    <ul class="list-disc list-inside mt-4 text-gray-600">
+                        <li>纪念T恤: 100元</li>
+                        <li>大巴租用: 21元</li>
+                        <li>场地租赁: 24元</li>
+                        <li>展览馆门票: 22元</li>
+                        <li>横幅: 6元</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-cyan-500">
+                    <h3 class="text-2xl font-bold mb-4">本地同学</h3>
+                    <p class="mb-4">本地同学将共同承担16日晚宴费用。</p>
+                    <p class="font-semibold text-lg">预估费用：<span class="text-cyan-600 font-bold text-xl">约 664元/人</span></p>
+                    <p class="mt-4 text-gray-600">包含外地同学的173元项目费用，以及分摊后的晚宴费用。最终金额将根据报名总人数确定。</p>
+                </div>
+            </div>
+            <p class="text-center mt-8 text-gray-600">所有费用将由 <strong class="text-indigo-600">朱坤</strong> 同学统一收取，具体缴费日期另行通知。</p>
+        </section>
+
+        <!-- Travel Section -->
+        <section id="travel" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">交通指南 (前往佳宇英皇酒店)</h2>
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="font-bold text-lg">① 出租车 / 网约车</h4>
+                        <p><strong>江北机场出发：</strong>约30公里，40分钟，费用约48元。</p>
+                        <p><strong>重庆西站出发：</strong>约15公里，25分钟，费用约22元。</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">② 公共交通</h4>
+                        <p><strong>江北机场T3出发：</strong>轨道10号线 → 曾家岩换乘2号线 → 谢家湾站下车 → 换乘820/833路公交至上江城站。全程约1小时40分钟。</p>
+                        <p><strong>重庆西站出发：</strong>轨道5号线 → 石新路站下车 → 换乘234路公交至珠江花园站。全程约1小时。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- RSVP Section -->
+        <section id="rsvp" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-10">报名回执</h2>
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <p class="text-center text-red-600 font-bold mb-6">第一轮报名截止时间：7月31日晚8点</p>
+                <form class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">姓名</label>
+                            <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <label for="tshirt" class="block text-sm font-medium text-gray-700">纪念服型号</label>
+                            <select id="tshirt" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                                <option>S (155-160cm, 95-110斤)</option>
+                                <option>M (160-165cm, 110-125斤)</option>
+                                <option>L (165-170cm, 125-140斤)</option>
+                                <option>XL (170-175cm, 140-160斤)</option>
+                                <option>2XL (175-180cm, 160-180斤)</option>
+                                <option>3XL (180-185cm, 180-200斤)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="guests" class="block text-sm font-medium text-gray-700">是否携带家眷/人数</label>
+                            <input type="text" id="guests" placeholder="例如: 是/2人" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <label for="hotel" class="block text-sm font-medium text-gray-700">是否入住酒店/入住日期</label>
+                            <input type="text" id="hotel" placeholder="例如: 是/8月15日" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="activity-choice" class="block text-sm font-medium text-gray-700">参加哪条活动线路</label>
+                        <select id="activity-choice" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                            <option>A线：登南山</option>
+                            <option>B线：逛动物园</option>
+                            <option>C线：Citywalk</option>
+                            <option>D线：自由行</option>
+                        </select>
+                    </div>
+                    <fieldset>
+                        <legend class="text-sm font-medium text-gray-700 mb-2">行程信息</legend>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm text-gray-600">抵达信息</label>
+                                <input type="text" placeholder="日期/航班号/时间" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-gray-600">离开信息</label>
+                                <input type="text" placeholder="日期/航班号/时间" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="text-center">
+                        <button type="button" onclick="alert('请将回执信息以任意形式发在同学群里或私发给会务组同学。')" class="inline-flex justify-center py-3 px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                            提交报名信息
+                        </button>
+                    </div>
+                </form>
+                <p class="text-center mt-4 text-sm text-gray-500">提示：这是一个演示页面，请按文档要求，将回执发在同学群里。</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>期待与你重逢，再叙当年情！</p>
+            <p class="text-sm text-gray-400 mt-2">0172-1班同学会会务组</p>
+        </div>
+    </footer>
+
+</body>
+</html>
